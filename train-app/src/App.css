@@ -1,0 +1,34 @@
+*{
+  padding : 0px;
+  margin:  0px;
+}
+.train-schedule-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive styles */
+
+@media (max-width: 600px) {
+  th,
+  td {
+    font-size: 14px;
+  }
+}
